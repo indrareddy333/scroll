@@ -5,19 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>scroll bar</title>
     <script>
-        window.onload=function(){
+        
         let scrollcontainer = document.querySelector(".galary");
         let backbtn = document.getElementById("backbtn");
         let nextbtn = document.getElementById("nextbtn");
 
        
         nextbtn.addEventListener("click",()=>{
-            scrollcontainer.scrollLeft += 300;
+            scrollcontainer.scrollLeft += 900;
         })
         backbtn.addEventListener("click",()=>{
-            scrollcontainer.scrollLeft -= 300;
+            scrollcontainer.scrollLeft -= 900;
         })   
-}
        
     </script>
     <style>
